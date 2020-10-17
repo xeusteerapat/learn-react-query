@@ -5,6 +5,7 @@ import Planets from './components/Planets';
 
 const App = () => {
   const [page, setPage] = useState('planets');
+
   return (
     <div className='App'>
       <h1>Star War Info</h1>
